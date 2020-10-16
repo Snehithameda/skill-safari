@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family:spartan;
+    Font size: 15px;
+    background:hsl(180, 52%, 96%);
+    max-width:1440px;
+    margin: auto;
+  }
+  
+  header{
+  
+    background:url('./bh-header-mobile.svg');
+  }
+  
+  section{
+    padding: 0 34px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid black;
+        padding-bottom: 20px;
+        margin-bottom: 63px;
+  
+        margin: 52px auto;
+  }
+  
+  
+  .column1{
+  border-bottom:1px solid black;
+  padding-bottom: 22px;
+  
+  
+  
+  }
+  
+  
+  
+  
+  .company{
+    color:rgb(99,186,186);
+  }
+  
+  .new{
+  background: rgb(91,164,164);
+  color:#fff;
+  
+  }
+  .new, .featured {
+    padding:4.3px;
+    border-radius: 5px;
+  }
+  
+  .featured{
+    background:black;
+    color:#fff;
+  }
+  
+  .title-info h2{
+      padding: 20px 0;
+  font-size:1em;
+  
+  }
+
+  .logo{
+    position: relative;
+  top: -34px;
+  width: 30px;
+  height: 63px;
+  }
+  
+  .job-description li {
+  
+  display:inline
+  
+  }
+  
+  
+  
+  
+  .column2{
+  display:flex;
+  flex-wrap: wrap;
+  }
+  
+  .column2 span {
+        margin: 3.9px;
+  }
+  .filterSpan{
+    background: hsl(180, 52%, 96%);
+    padding: 10px;
+    /* color: #fff; */
+    color: rgb(91,164,164);
+    cursor: pointer;
+    display:block;
+    border: 1px solid black;
+    font-weight: 900;
+  
+  }
+  
+  
+  /* @media only screen and (min-width:700px){
+    .background{
+      width:100%;
+    }
+  .logo{
+    position: static;
+  }
+  .column1{
+    display:flex;
+    justify-content: space-between;
+    width:50%;
+    align-items: center;
+  }
+  } */
+  
+  
+  main > section:first-child,main > section:nth-child(2){
+  border-left: 7px solid rgb(100,161,158);
+  
+  }
+  
+  @media only screen and (min-width:1000px){
+    section{
+      padding: 20px 34px;
+    }
+    .background{
+      width:100%;
+    }
+  .logo{
+    position: static;
+  }
+  .column1{
+    display:flex;
+    justify-content: space-between;
+    width:30%;
+    align-items: center;
+    border-bottom:0;
+  }
+  
+  }
+  
+  /* @media only screen and (min-width: 380px){
+  section{
+        padding: 22px 34.9px;
+  }
+  .column1{
+    width:38%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .background{
+    width:100%;
+  }
+  } */
+  
+  /*
+  https://sports.ladbrokes.com/en/mobileportal/register
+  */
